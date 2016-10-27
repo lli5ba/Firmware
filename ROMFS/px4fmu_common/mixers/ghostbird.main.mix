@@ -1,0 +1,11 @@
+# GhostBird mixer for PX4FMU
+#
+# First 3 main outputs are motors, last output is a yaw servo
+
+# Motors
+R: 3y 10000 10000 10000 0
+
+# Yaw Servo
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 0 2 -10000 -10000      0 -10000  10000
