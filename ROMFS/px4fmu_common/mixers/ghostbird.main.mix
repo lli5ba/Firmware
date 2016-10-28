@@ -1,6 +1,7 @@
-# GhostBird mixer for PX4FMU
-#
-# First 3 main outputs are motors, last output is a yaw servo
+
+
+# Tricopter Y-Configuration Mixer
+# Yaw Servo +Output ==> -Yaw Vehicle Rotation
 
 # Motors
 R: 3y 10000 10000 10000 0
@@ -9,3 +10,4 @@ R: 3y 10000 10000 10000 0
 M: 1
 O:      10000  10000      0 -10000  10000
 S: 0 2 -10000 -10000      0 -10000  10000
+
